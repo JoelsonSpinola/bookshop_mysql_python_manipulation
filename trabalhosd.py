@@ -4,7 +4,7 @@ from mysql.connector import Error#importando o Error
 
 try:
     #dar acesso a base de dados, com o usuario root, senha do usuario, host localhost, database Livraria
-    conn = msql.connect(user='root', password='AlucarD20',
+    conn = msql.connect(user='root', password='add root password',
                         host='localhost', database='Livraria',
                         auth_plugin='mysql_native_password')
     
